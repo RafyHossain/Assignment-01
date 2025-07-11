@@ -309,6 +309,8 @@ body{
 
 }
 
+/*Footer*/
+
 .foot {
   max-width: 1440px;
   height: 428px;
@@ -339,4 +341,20 @@ body{
 }
 .nav-links a{
   text-decoration: none;
+}
+
+/*animation*/
+.btn-primary:hover {
+  background-color: #38cab4;
+  transform: scale(1.03);
+}
+
+.btn-primary:active {
+  background-color: #8ed112;
+  transform: scale(0.98);
+}
+
+.review-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
