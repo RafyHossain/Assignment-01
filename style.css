@@ -36,6 +36,11 @@
   
     
 }
+.nav-ban-content h1{
+  font-size: 65px;
+  font-weight: bold;
+  color: #252432;
+}
 .logo{
     color: #4E47FF;
     width: 99px;
@@ -61,6 +66,7 @@
 /* Main action*/
 .action {
     display: flex;
+    gap: 220px;
     justify-content: space-between;
     align-items: center;
     padding: 40px 60px;
@@ -76,7 +82,9 @@
     margin-bottom: 23px;
   }
   .text-content p {
+    
     font-size: 24px;
+    line-height: 30px;
     color: rgba(37, 36, 50, 50%)
     
   }
@@ -118,12 +126,78 @@
     align-items: center;
   }
   .s-number {
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #6366f1; /* Indigo-500 */
-    margin-bottom: 8px;
+    
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF; 
+    
   }
   .s-description {
-    font-size: 0.875rem;
-    color: #6b7280; /* Gray-500 */
+    font-size:20px;
+    color: rgba(0, 0,0, 50%);
   }
+
+  /* Review part*/
+  .user-review {
+  max-width: 1140px;
+  height: 342px;
+  margin: 141px 116px;
+  text-align: center;
+}
+.user-review h2{
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 50px;
+  
+}
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+
+.review-card {
+  background-color: rgba(255, 255, 255, 50%);
+  box-shadow:10px 10px 10px rgba(242, 237, 237, 100%);
+  border-radius: 14px;
+  padding: 24px;
+  max-width: 366px;
+  text-align: left;
+}
+.icon-star {
+  margin-bottom: 24px;
+}
+
+.review-title {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 8px;
+}
+.review-text {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 24px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #757575;
+}
+
+.reviewer-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+}
+
+.review-date {
+  font-size: 14px;
+  color: #B3B3B3;
+}
